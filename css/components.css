@@ -1,0 +1,25 @@
+/* Buttons, links, iconlinks */
+.iconlink{ display:flex; align-items:center; gap:8px; }
+.iconlink svg{ width:18px; height:18px; }
+.link-underline{ border-bottom:1px dotted currentColor; }
+.address a:hover{ text-decoration: underline; }
+
+/* Social icons */
+.social img, .social svg{ width:22px; height:22px; }
+
+/* Icônes entête en blanc */
+.header__contacts .iconlink{ color: #fff; opacity: .95; }
+.header__contacts .iconlink:hover{ opacity: .85; }
+.header__contacts .iconlink img{ filter: invert(1); }
+
+.footer .social a:hover{ opacity:.8; }
+
+/* Box model normalization */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, img { margin:0; padding:0; }
+img { max-width: 100%; display: block; }
+ul { list-style: none; }
+a { text-decoration: none; color: inherit; }
+button, input, select, textarea { font: inherit; }

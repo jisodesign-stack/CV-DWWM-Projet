@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV-Développeur Web & Web Mobile</title>
+  <link rel="icon" href="src/assets/img/cv-flavicon.png" type="image/png">
+  
+  <!-- Lato via Google Fonts for titles -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+  <meta name="description" content="CV en ligne-Développeur Web & Web Mobile.">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="topbar">
+        <div class="topbar__left">
+          <h1 class="header__title">Prénom Nom</h1>
+          <p class="header__subtitle">Développeur Web et Web Mobile</p>
+          
+            
+            <div class="header__contacts" aria-label="Coordonnées">
+              <a class="iconlink" href="gmail:mon.email@gmail.com"><img src="src/assets/icons/email.png" alt="icon-email"/> <span>Mail</span></a>
+              <a class="iconlink address" href="https://maps.google.com/?q=Votre+Adresse" target="_blank" rel="noopener"><img src="src/assets/icons/adresse.png" alt="icon-maps"/> <span>Adresse</span></a>
+              <a class="iconlink" href="tel:+33000000000"><img src="src/assets/icons/telephone.png" alt=""/> <span>Téléphone</span></a>
+              <span class="iconlink"><img src="src/assets/icons/auto.png" alt="icon-auto"/> <span>Permis B</span></span>
+            </div>
+
+
+        </div>
+        <div class="avatar-holder">
+          <img class="avatar" src="src/assets/img/profile.jpg" alt="Photo de profil" />
+        </div>
+      </div>
+    </header>
+
+    <div class="banner" style="display:none">
+      <div class="banner__photoHolder">
+        <a href="src/assets/img/profile.jpg" title="Cliquer pour zoomer (ouvre l'image)">
+          <img class="avatar" src="src/assets/img/profile.jpg" alt="Photo de profil" />
+        </a>
+      </div>
+    </div>
+
+    <!-- colonne de droite (competences, langues, qualités) -->
+    <main class="main" role="main">
+      <aside class="sidebar left-rail">
+        <section class="block">
+          <h3>Compétences</h3>
+          <div class="kv"><span>HTML</span><span class="stars-text">★★★★<span class="stars-muted">☆</span></span></div>
+          <div class="kv"><span>CSS</span><span class="stars-text">★★★★<span class="stars-muted">☆</span></span></div>
+          <div class="kv"><span>Javascript</span><span class="stars-text">★★★<span class="stars-muted">☆☆</span></span></div>
+          <div class="kv"><span>PHP</span><span class="stars-text">★★★<span class="stars-muted">☆☆</span></span></div>
+        </section>
+
+        <section class="block">
+          <h3>Langues</h3>
+          <div class="kv"><span>Français</span><span>Langue maternelle</span></div>
+          <div class="kv"><span>Anglais</span><span>Scolaire</span></div>
+          
+        </section>
+
+        <section class="block">
+          <h3>Qualités</h3>
+          <!-- <ul>
+            <li>Autonome</li>
+            <li>Rigoureux</li>
+            <li>Créatif</li>
+            <li>Polyvalent</li>
+          </ul> -->
+        </section>
+
+        <section class="block">
+          <h3>Centres d'intérêt</h3>
+          <!-- <ul>
+            <li>Musique</li>
+            <li>Dessin</li>
+            <li>Media</li>
+          </ul> -->
+        </section>
+      </aside>
+
+      <!-- colonne de gauche (profil, formations, stage...) -->
+      <section class="content">
+        <section class="section profile card">
+          <h2>Profil</h2>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum
+            quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis
+            dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum
+            quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem
+            atque vitae voluptas. Cum magni doloribus eius tenetur!
+          </p> -->
+        </section>
+
+        <section class="section">
+          <h2>Formations</h2>
+          <div class="timeline">
+            <article class="item">
+              <!-- <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+          </div> -->
+        </section>
+
+        <!-- <section class="section">
+          <h2>Stages</h2>
+          <div class="timeline">
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+          </div>
+        </section> -->
+
+        <section class="section">
+          <h2>Expérience professionnelle</h2>
+          <!-- <div class="timeline">
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+            <article class="item">
+              <div>
+                <div class="item__title">titre experience</div>
+                <div class="item__subtitle">sous-titre experience</div>
+              </div>
+              <div class="item__date">date</div>
+            </article>
+          </div> -->
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      
+      <div class="social" aria-label="Réseaux">
+        <!-- TODO: Remplacez les URLs par vos profils -->
+        <a href="https://github.com/votre-username" target="_blank" rel="noopener" title="GitHub">
+          <img class="social-icon" src="src/assets/icons/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.instagram.com/votre-username" target="_blank" rel="noopener" title="Instagram">
+          <img class="social-icon" src="src/assets/icons/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/votre-username" target="_blank" rel="noopener" title="LinkedIn">
+          <img class="social-icon" src="src/assets/icons/linkedin.png" alt="LinkedIn">
+        </a>
+      </div>
+
+      <div class="muted small">Mis à jour le : <time id="lastUpdate">JJ/MM/AAAA</time></div>
+      <script>
+        // Inject today's date in FR format
+        const t = new Date();
+        const d = String(t.getDate()).padStart(2,'0') + '/' + String(t.getMonth()+1).padStart(2,'0') + '/' + t.getFullYear();
+        document.getElementById('lastUpdate').textContent = d;
+      </script>
+    </footer>
+  </div>
+</body>
+</html>

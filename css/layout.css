@@ -1,0 +1,33 @@
+/* Flexbox layout and left rail style tile */
+.topbar{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+.topbar__left{ flex:1; }
+.topbar__right{ width:120px; display:flex; justify-content:flex-end; }
+
+.banner{
+  height: 120px;
+  background: var(--primary);
+  position: relative;
+}
+.banner__photoHolder{
+  position:absolute;
+  bottom:-75px;
+  left:56px;
+  width:150px; height:150px;
+}
+
+.badge-list{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.kv{ display:flex; justify-content:space-between; margin:6px 0; }
+.kv span:last-child{ color:#666; }
+
+/* Centrage strict du header */
+.topbar{ display:block; }
+.topbar__right{ display:none; }
+
+/* Espacement horizontal légèrement plus large entre colonne gauche et droite === */
+.main{ display:flex; gap:40px !important; }
+
+.left-rail{ padding-top: 0; }
